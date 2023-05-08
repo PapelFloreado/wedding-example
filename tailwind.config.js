@@ -8,8 +8,16 @@ export default {
         
       },
       backgroundColor:{
-        "mindaro": "#F3FFB6",
+        "melon": "#F0B5B3",
         "coral": "#FE938C"
+      },
+      fontFamily:{
+        "sacramento": ['Sacramento', "cursive"],
+        "roboto": ['Roboto Slab', "serif"]
+        
+      },
+      borderColor:{
+        "melon": "#F0B5B3",
       }
     },
   },

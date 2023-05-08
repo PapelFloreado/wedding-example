@@ -29,7 +29,7 @@ const CountdownTimer = ({countDownTimestampsMS}) => {
   return (
       <div className=' text-6xl my-20 flex-col justify-center'>
         <div className=' justify-center flex  items-center basis-full'>
-          <h2 className='text-center   mb-28 text-8xl border-b-2 border-black'>Mayo 26, 2023</h2>
+          <h2 className='text-center   mb-28 text-8xl border-b-2 border-black'>May 26, 2023</h2>
         </div>
         <div className='text-center'> 
           <span className='mx-3  w-20'>{remainingTime.days}</span>
