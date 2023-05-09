@@ -18,7 +18,11 @@ export default {
       },
       borderColor:{
         "melon": "#F0B5B3",
+      },
+      textColor:{
+        "melon": "#ac8180"
       }
+      
     },
   },
   plugins: [],

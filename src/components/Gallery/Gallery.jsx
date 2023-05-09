@@ -9,17 +9,20 @@ import pareja5 from "../../assets/pareja5.jpg"
 const Gallery = () => {
 
   return (
-    <div className='flex mx-auto w-3/4 '>
-        <div className='m-6' >
-            <img className='m-10 grayscale hover:grayscale-0 hover:scale-110 duration-500 ease-in-out' src={pareja1} alt="" />
-            <img className='m-10 grayscale hover:grayscale-0 hover:scale-110 duration-500 ease-in-out'  src={pareja4} alt="" />
-            <img className='m-10 grayscale hover:grayscale-0 hover:scale-110 duration-500 ease-in-out'  src={pareja5} alt="" />
-        </div>
-        <div className='m-6' >
-            <img className='m-10 grayscale hover:grayscale-0 hover:scale-110 duration-500 ease-in-out'  src={pareja2} alt="" />
-            <img className='m-10 grayscale hover:grayscale-0 hover:scale-110 duration-500 ease-in-out'  src={pareja3} alt="" />
-            
-        </div>
+    <div className='my-20'>
+      <h2 className='text-8xl font-roboto text-center'>Us</h2>
+      <div className='flex mx-auto w-3/4 '>
+          <div className='m-6' >
+              <img className='m-10 grayscale hover:grayscale-0 hover:scale-110 duration-500 ease-in-out' src={pareja1} alt="" />
+              <img className='m-10 grayscale hover:grayscale-0 hover:scale-110 duration-500 ease-in-out'  src={pareja4} alt="" />
+              <img className='m-10 grayscale hover:grayscale-0 hover:scale-110 duration-500 ease-in-out'  src={pareja5} alt="" />
+          </div>
+          <div className='m-6' >
+              <img className='m-10 grayscale hover:grayscale-0 hover:scale-110 duration-500 ease-in-out'  src={pareja2} alt="" />
+              <img className='m-10 grayscale hover:grayscale-0 hover:scale-110 duration-500 ease-in-out'  src={pareja3} alt="" />
+              
+          </div>
+      </div>
     </div>
   )
 }
