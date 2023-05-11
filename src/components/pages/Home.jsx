@@ -7,18 +7,22 @@ import Family from '../Family/Family'
 import Itinerario from '../Itinerario/Itinerario'
 import Gallery from '../Gallery/Gallery'
 import Gifts from '../Gifts/Gifts'
+import Confirm from '../Confirm/Confirm'
+import Footer from '../Footer/Footer'
 
 const Home = () => {
   return (
         <>
            <Navbar/>
            <Hero/>
-           <CountdownTimer className="absolute" countDownTimestampsMS={1685128142000}/>
+           <CountdownTimer className="absolute" countDownTimestampsMS={1701537002000}/>
            <Couple/>
            <Family/>
            <Itinerario/>
            <Gallery/>
            <Gifts/>
+           <Confirm/>
+           <Footer/>
         </>
   )
 }

@@ -9,7 +9,7 @@ import pareja5 from "../../assets/pareja5.jpg"
 const Gallery = () => {
 
   return (
-    <div className='my-20'>
+    <div className='my-20  text-melon'>
       <h2 className='text-8xl font-roboto text-center'>Us</h2>
       <div className='flex mx-auto w-3/4 '>
           <div className='m-6' >
