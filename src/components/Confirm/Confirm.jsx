@@ -5,11 +5,11 @@ const Confirm = () => {
     
   return (
     <div className='mt-20'>
-        <h2 className='text-4xl md:text-8xl font-roboto text-center  text-melon'>Save the date</h2>
+        <h2 className='text-6xl md:text-8xl font-roboto text-center  text-melon'>Save the date</h2>
         <div className='text-melon flex-col'>
             <div className='mt-10 text-center'>
-                <p className='text-2xl md:text-6xl'>We would be very happy if you join us on this special day.</p>
-                <p className='text-2xl md:text-6xl mt-6'>For this we need you to confirm your attendance.</p>
+                <p className='text-4xl md:text-6xl'>We would be very happy if you join us on this special day.</p>
+                <p className='text-4xl md:text-6xl mt-6'>For this we need you to confirm your attendance.</p>
             </div>        
             <div className='md:flex-row flex flex-col font-roboto my-20 text-4xl items-center justify-center mx-auto'>
                 <button className='hover:border-white duration-700 ease-in-out  text-white bg-melon flex justify-center gap-5' type='button'>
