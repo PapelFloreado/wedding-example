@@ -1,11 +1,17 @@
 import React from 'react'
 import { BiChurch, BiHotel, BiParty } from "react-icons/bi"
 import { GoLocation } from "react-icons/go";
+import {motion} from "framer-motion"
 
 const Itinerario = () => {
 
   return (
-    <div className=' my-10 py-20 text bg-melon'>
+    <motion.div
+    initial={{ opacity: 0, scale:0.5 }}
+    whileInView={{ opacity: 1 }} 
+    transition={{ duration: 1}}
+    animate={{scale: 1}}
+    exit={{ opacity: 0}} className=' my-10 py-20 text bg-melon'>
         <h2 className='text-center  font-roboto text-6xl md:text-8xl mb-16'>Itinerary</h2>
         <div className='md:flex-row flex flex-col justify-around text-center text-2xl md:text-4xl'>
             <div className='border-2 p-12 basis-1/4 border-white  hover:shadow-2xl md:hover:scale-110 duration-700 ease-in-out'>
@@ -54,7 +60,7 @@ const Itinerario = () => {
                 
             </div>
         </div>
-    </div>
+    </motion.div>
   )
 }
 

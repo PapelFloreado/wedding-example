@@ -9,7 +9,8 @@ export default {
       },
       backgroundColor:{
         "melon": "#F0B5B3",
-        "coral": "#FE938C"
+        "coral": "#FE938C",
+        "nav": "#F7F7FF"
       },
       fontFamily:{
         "sacramento": ['Sacramento', "cursive"],
