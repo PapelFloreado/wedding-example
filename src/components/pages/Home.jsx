@@ -5,10 +5,10 @@ import CountdownTimer from '../CountdownTimer/CountdownTimer'
 import Couple from '../Couple/Couple'
 import Family from '../Family/Family'
 import Itinerario from '../Itinerario/Itinerario'
-import Gallery from '../Gallery/Gallery'
 import Gifts from '../Gifts/Gifts'
 import Confirm from '../Confirm/Confirm'
 import Footer from '../Footer/Footer'
+import Gallery from '../Gallery/Gallery'
 
 const Home = () => {
   return (

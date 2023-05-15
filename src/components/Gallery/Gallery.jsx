@@ -1,13 +1,10 @@
 import React from 'react'
 import {motion} from "framer-motion"
-import pareja1 from "../../assets/pareja1.jpg"
-import pareja2 from "../../assets/pareja2.jpg"
-import pareja3 from "../../assets/pareja3.jpg"
-import pareja4 from "../../assets/pareja4.jpg"
-import pareja5 from "../../assets/pareja5.jpg"
+
 
 
 const Gallery = () => {
+ 
 
   return (
     <div className='my-20  text-melon'>
@@ -23,13 +20,13 @@ const Gallery = () => {
             animate={{scale: 1}}
             exit={{ opacity: 0}} className='md:flex-row flex flex-col justify-items-center md:justify-center items-center mx-auto w-3/4 '>
           <div className='mx-auto  md:m-6' >
-              <img className='m-4 md:m-10 grayscale hover:grayscale-0 md:hover:scale-110 duration-500 ease-in-out' src={pareja1} alt="" />
-              <img className='m-4 md:m-10 grayscale hover:grayscale-0 md:hover:scale-110 duration-500 ease-in-out'  src={pareja4} alt="" />
-              <img className='m-4 md:m-10 grayscale hover:grayscale-0 md:hover:scale-110 duration-500 ease-in-out'  src={pareja5} alt="" />
+              <img className='m-4 md:m-10 grayscale hover:grayscale-0 md:hover:scale-110 duration-500 ease-in-out' src='https://i.postimg.cc/B6XG2fSd/pareja1.jpg' alt="" />
+              <img className='m-4 md:m-10 grayscale hover:grayscale-0 md:hover:scale-110 duration-500 ease-in-out' src='https://i.postimg.cc/13shJqR0/pareja4.jpg' alt="" />
+              <img className='m-4 md:m-10 grayscale hover:grayscale-0 md:hover:scale-110 duration-500 ease-in-out' src='https://i.postimg.cc/PJDsFb8y/pareja5.jpg'  alt="" />
           </div>
           <div className='mx-auto md:m-6' >
-              <img className='m-4 md:m-10 grayscale hover:grayscale-0 md:hover:scale-110 duration-500 ease-in-out'  src={pareja2} alt="" />
-              <img className='m-4 md:m-10 grayscale hover:grayscale-0 md:hover:scale-110 duration-500 ease-in-out'  src={pareja3} alt="" />
+              <img className='m-4 md:m-10 grayscale hover:grayscale-0 md:hover:scale-110 duration-500 ease-in-out' src='https://i.postimg.cc/9FGHdp2F/pareja2.jpg' alt="" />
+              <img className='m-4 md:m-10 grayscale hover:grayscale-0 md:hover:scale-110 duration-500 ease-in-out' src='https://i.postimg.cc/3JMH0qPc/pareja3.jpg'  alt="" />
               
           </div>
       </motion.div>

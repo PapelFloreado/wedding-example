@@ -32,7 +32,7 @@ const Gifts = () => {
             <div className='basis-1/3 text-center'>
                 <div className='flex justify-center mx-auto mt-10'>
                     <a className='flex justify-center items-center' href="http://amazon.com" target="_blank" rel="noopener noreferrer">
-                        <img className='w-2/3 md:w-1/2 hover:scale-95 duration-700 ease-in-out' src={amazon} alt="amazon shop icon" />
+                        <img className='hover:scale-95 duration-700 ease-in-out' src={amazon} alt="amazon shop icon" />
                     </a>
                 </div>
                 <h2 className='text-4xl mt-10'>Amazon wedding list</h2>
@@ -45,7 +45,7 @@ const Gifts = () => {
             </div>
             <div className='basis-1/3 text-center mt-10'>
                 <div className='flex justify-center items-center'>
-                    <img className='w-1/5   hover:scale-95 duration-700 ease-in-out' src={bank} alt="bank icon" />
+                    <img className='w-1/6   hover:scale-95 duration-700 ease-in-out' src={bank} alt="bank icon" />
                 </div>
                 <div className='mt-10'>
                     <h2 className='text-4xl'>Bank Account</h2>

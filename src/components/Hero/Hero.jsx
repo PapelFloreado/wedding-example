@@ -1,11 +1,11 @@
 import React from 'react'
-import couple from "../../assets/pareja.jpg"
+
 
 
 const Hero = () => {
   return (
         <div className=''>
-            <img src={couple} alt="couple weedding" />   
+            <img className='w-full' src='https://i.postimg.cc/c1tSHW53/pareja.jpg' alt="couple weedding" />   
         </div>
   )
 }
