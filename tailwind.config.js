@@ -5,7 +5,7 @@ export default {
     extend: {
       backgroundImage: {
         "back": "url('/src/assets/back.jpg')",
-        "ramo": "url('/src/assets/ramo.png')"
+        "ramo": "url('https://i.postimg.cc/mgJ0vD0W/ramo.png')"
 
         
       },
