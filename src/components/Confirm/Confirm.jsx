@@ -29,12 +29,12 @@ const Confirm = () => {
                 transition={{ duration: 1, ease: 'easeInOut', delay:0.4}}
                 animate={{scale: 1}}
                 exit={{ opacity: 0}} className='md:flex-row flex flex-col font-roboto my-20 text-4xl items-center justify-center mx-auto'>
-                <button className='hover:border-white duration-700 ease-in-out  text-white bg-melon flex justify-center gap-5' type='button'>
+                <button className='hover:border-white duration-700 ease-in-out items-center  text-white bg-melon flex justify-center gap-5' type='button'>
                     <BsWhatsapp/>
                     <a className='text-white text-2xl md:text-6xl' href="https://wa.me/5491140435288/?text=Hi!%20I%20liked%20your%20application%20I%20would%20like%20to%20hire%20you" target="_blank" rel="noopener noreferrer">We regret not being able to accompany you.</a>
                 </button>
-                <button className='hover:border-melon flex justify-center gap-5' type='button'>
-                    <BsWhatsapp/>
+                <button className='hover:border-melon flex justify-center gap-5 items-center' type='button'>
+                    <BsWhatsapp />
                     <a className='text-melon text-2xl md:text-6xl' href="https://wa.me/5491140435288/?text=Hi!%20I%20liked%20your%20application%20I%20would%20like%20to%20hire%20you" target="_blank" rel="noopener noreferrer">We will accompany you on this special day</a>
                 </button>
             </motion.div>

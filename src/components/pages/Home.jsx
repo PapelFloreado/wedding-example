@@ -15,7 +15,7 @@ const Home = () => {
         <>
            <Navbar/>
            <Hero/>
-           <CountdownTimer className="absolute" countDownTimestampsMS={1701537002000}/>
+           <CountdownTimer className="absolute" countDownTimestampsMS={1703545940000}/>
            <Couple/>
            <Family/>
            <Itinerario/>
