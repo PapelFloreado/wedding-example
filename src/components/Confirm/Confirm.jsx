@@ -5,7 +5,7 @@ import { BsWhatsapp } from "react-icons/bs";
 const Confirm = () => {
     
   return (
-    <div className='mt-20'>
+    <div className='pt-20 bg-back bg-cover bg-fixed md:bg-fixed'>
         <motion.h2 initial={{ opacity: 0, scale:0.5 }}
             whileInView={{ opacity: 1 }} 
             transition={{ duration: 1, ease: 'easeInOut'}}
@@ -28,7 +28,7 @@ const Confirm = () => {
                 whileInView={{ opacity: 1 }} 
                 transition={{ duration: 1, ease: 'easeInOut', delay:0.4}}
                 animate={{scale: 1}}
-                exit={{ opacity: 0}} className='md:flex-row flex flex-col font-roboto my-20 text-4xl items-center justify-center mx-auto'>
+                exit={{ opacity: 0}} className='md:flex-row flex flex-col font-roboto py-20 text-4xl items-center justify-center mx-auto'>
                 <button className='hover:border-white duration-700 ease-in-out items-center  text-white bg-melon flex justify-center gap-5' type='button'>
                     <BsWhatsapp/>
                     <a className='text-white text-2xl md:text-6xl' href="https://wa.me/5491140435288/?text=Hi!%20I%20liked%20your%20application%20I%20would%20like%20to%20hire%20you" target="_blank" rel="noopener noreferrer">We regret not being able to accompany you.</a>

@@ -4,6 +4,7 @@ import {easeInOut, motion} from "framer-motion"
 const Family = () => {
 
   return (
+    <div className='bg-back bg-cover bg-fixed md:bg-fixed py-16 pb-10 '>
         <div className=' text-melon bg-cover bg-opacity-50 font-roboto font-light'>
             <motion.h2
             initial={{ opacity: 0, scale:0.5 }}
@@ -52,10 +53,9 @@ const Family = () => {
                     <p className="text-4xl mt-10 md:text-6xl font-sacramento">John Bonachon</p>
                     <p className="text-4xl mt-10 md:text-6xl font-sacramento">John Bonachon</p>
                 </motion.div>
-
             </div>
-            
         </div>
+    </div>
   )
 }
 

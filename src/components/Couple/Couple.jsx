@@ -7,12 +7,12 @@ const Couple = () => {
   return (
 
         <div className='bg-melon bg-cover bg-opacity-50'>
-            <div className='flex items-center justify-center'>
+            <div className='flex items-center bg-ramo  bg-contain justify-center'>
                 <motion.h2 initial={{ opacity: 0, scale:0.5 }}
                     whileInView={{ opacity: 1 }} 
                     transition={{ duration: 1, ease: 'easeInOut', delay:0.2}}
                     animate={{scale: 1}}
-                    exit={{ opacity: 0}} className=' basis-1/3 text-6xl md:text-9xl text-end mr-20'>Eva</motion.h2>
+                    exit={{ opacity: 0}} className='basis-1/3  font-bold text-6xl md:text-9xl text-end mr-20'>Eva</motion.h2>
                 <motion.div 
                     initial={{ opacity: 0 }}
                     whileInView={{ opacity: 1 }} 

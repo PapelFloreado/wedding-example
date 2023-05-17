@@ -28,7 +28,8 @@ const CountdownTimer = ({countDownTimestampsMS}) => {
   }
 
   return (
-      <div className=' text-6xl font-roboto my-20 flex-col text-melon justify-center'>
+    <div className='bg-back bg-cover bg-fixed md:bg-fixed'>
+      <div className=' text-6xl font-roboto py-20 flex-col text-melon justify-center'>
         <h1 className='text-6xl font-sacramento text-center md:text-9xl'>Eva & Mark</h1>
         <h2 className='text-6xl font-sacramento text-center mb-16 md:text-9xl'>Wedding</h2>
         <div className=' justify-center flex  items-center basis-full'>
@@ -51,15 +52,10 @@ const CountdownTimer = ({countDownTimestampsMS}) => {
             <p>{remainingTime.seconds}</p>
             <p>seconds</p>
           </div>
-          {/* <span className='mx-3 w-20'></span>
-          <span className='mx-3'>hours</span>
-          <span className='mx-3 w-20'>{remainingTime.minutes}</span>
-          <span className='mx-3'>minutes</span>    
-          <span className='mx-3 min-w-24'>{remainingTime.seconds}</span>
-          <span className='mx-3 '>seconds</span> */}
         </div>
           <p className='text-center text-4xl md:text-8xl mt-16'>Until the day!!!</p>
       </div>
+    </div>
 
   )
 }

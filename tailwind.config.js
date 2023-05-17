@@ -4,7 +4,9 @@ export default {
   theme: {
     extend: {
       backgroundImage: {
-        "back-image": "url('/src/assets/flores.svg')"
+        "back": "url('/src/assets/back.jpg')",
+        "ramo": "url('/src/assets/ramo.png')"
+
         
       },
       backgroundColor:{
@@ -21,7 +23,8 @@ export default {
         "melon": "#F0B5B3",
       },
       textColor:{
-        "melon": "#ac8180"
+        "melon": "#ac8180",
+        "titulo": "#693e3d"
       }
       
     },

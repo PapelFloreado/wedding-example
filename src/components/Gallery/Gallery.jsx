@@ -7,7 +7,8 @@ const Gallery = () => {
  
 
   return (
-    <div className='my-20  text-melon'>
+  <div className='bg-back bg-cover bg-fixed md:bg-fixed'>
+    <div className='py-20  text-melon'>
       <motion.h2 initial={{ opacity: 0, scale:0.5 }}
             whileInView={{ opacity: 1 }} 
             transition={{ duration: 1, ease: 'easeInOut'}}
@@ -31,6 +32,7 @@ const Gallery = () => {
           </div>
       </motion.div>
     </div>
+  </div>
   )
 }
 
